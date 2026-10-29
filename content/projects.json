@@ -1,13 +1,12 @@
 [
   {
-    "title": "My First Film",
+    "title": "My First film",
     "category": "Film / Directing",
     "date": "2026",
     "role": "Director",
     "description": "A short film project.",
-    "purpose": "Creative storytelling",
-    "link": "",
-    "mediaPath": "",
-    "mediaType": "none"
+    "purpose": "Many Uzbek students work hard to achieve their goals, yet their daily struggles are often misunderstood. Parents, teachers, and society frequently compare today's generation to their own, assuming young people are lazy or unmotivated without fully understanding the pressures they face.\nI believe documentary filmmaking—an underdeveloped genre in Uzbekistan—can help change this. By following the everyday lives of real students from different backgrounds, we want to tell authentic stories that reveal their challenges, dreams, resilience, humor, and growth. Rather than telling audiences what to think, we want them to experience these stories firsthand and form their own perspectives.\nOur primary audience is parents, teachers, and school psychologists, while our secondary audience is teenagers who feel misunderstood or lack motivation. Unlike traditional documentaries, our films blend cinematic storytelling, humor, and emotional moments to create engaging stories people want to watch, building empathy and showing the untapped potential of documentary filmmaking in Uzbekistan.",
+    "link": "https://youtu.be/jXAumMruDos?si=Ma20Z9pcSWVKIFuJ",
+    "mediaType": "video"
   }
 ]
