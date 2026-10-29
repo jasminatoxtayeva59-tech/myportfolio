@@ -1,0 +1,59 @@
+media:
+  input: media
+  output: media
+  rename: safe
+  categories:
+    - image
+    - document
+    - video
+
+content:
+  - name: projects
+    label: Portfolio Projects
+    type: file
+    path: content/projects.json
+    format: json
+    list: true
+    fields:
+      - name: title
+        label: Project title
+        type: string
+        required: true
+      - name: category
+        label: Category
+        type: select
+        options:
+          values:
+            - Film / Directing
+            - Producing
+            - Video Editing
+            - Research Paper
+            - Analytical Writing
+            - Photography
+      - name: date
+        label: Date or year
+        type: string
+      - name: role
+        label: Your role
+        type: string
+      - name: description
+        label: Description
+        type: text
+      - name: purpose
+        label: Creative purpose or research question
+        type: text
+      - name: link
+        label: External link (YouTube, document, etc.)
+        type: string
+      - name: mediaPath
+        label: Uploaded media file (optional)
+        type: file
+      - name: mediaType
+        label: Media type
+        type: select
+        options:
+          values:
+            - none
+            - image
+            - video
+            - document
